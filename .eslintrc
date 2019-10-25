@@ -23,6 +23,7 @@
     "react/no-access-state-in-setstate": "warn",
     "react/jsx-one-expression-per-line": "off",
     "react/no-unescaped-entities": "off",
+    "react/jsx-props-no-spreading": "off",
 
     "prefer-destructuring": "off",
     "react/jsx-wrap-multilines": "off",

@@ -4,7 +4,10 @@ import Post from 'src/components/Post';
 
 const Posts = (props) => {
   const posts = props.posts.map((post) => {
-    return <Post key={post.id} post={post} />;
+    return <Post
+      key={post.id}
+      {...post}
+    />;
   });
 
   return <main className="app-posts">
