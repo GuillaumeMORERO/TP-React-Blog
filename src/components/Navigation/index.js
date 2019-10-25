@@ -1,13 +1,15 @@
 import React from 'react';
 
+import './styles.sass';
+
 const Navigation = (props) => {
   // On prépare les liens de la navigation.
   const menuItems = props.categories.map((category) => {
-    return <a href="#" className="nav-item">{category}</a>;
+    return <li key={category} className="nav-item"><a href="#">{category}</a></li>;
   });
 
   // return React.createElement(div, {}, 'ici, bientôt, une navigation');
-  return <div className="app-navigation">{menuItems}</div>;
+  return <ul className="app-navigation">{menuItems}</ul>;
 };
 
 export default Navigation;
