@@ -7,6 +7,9 @@ import React from 'react';
  * Local import
  */
 // Composants enfants éventuels
+import Navigation from 'src/components/Navigation';
+import Posts from 'src/components/Posts';
+import Footer from 'src/components/Footer';
 
 // Styles et assets
 import './styles.sass';
@@ -15,8 +18,10 @@ import './styles.sass';
  * Code
  */
 const Blog = () => {
-  return <div id="app">
-    todo - implémenter le blog
+  return <div className="app">
+    <Navigation /> {/* React.createElement(Navigation, {}, '') */}
+    <Posts />
+    <Footer />
   </div>;
 };
 
