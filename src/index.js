@@ -16,11 +16,11 @@ import ReactDOM from 'react-dom';
 /**
  * Local import
  */
-import App from 'src/components/App';
+import Blog from 'src/components/Blog';
 
 /**
  * Code
  */
-const rootComponent = <App promo="Vortex" />;
+const rootComponent = <Blog />;
 const renderingArea = document.querySelector('#root');
 ReactDOM.render(rootComponent, renderingArea);

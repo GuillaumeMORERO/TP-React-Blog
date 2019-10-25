@@ -9,20 +9,18 @@ import React from 'react';
 // Composants enfants éventuels
 
 // Styles et assets
-import './app.sass';
+import './styles.sass';
 
 /**
  * Code
  */
-const App = (props) => {
-  const promo = props.promo;
+const Blog = () => {
   return <div id="app">
-    <h1 id="app-title">Modèle React</h1>
-    <p id="app-content"><em>Salut</em> {promo} !</p>
+    todo - implémenter le blog
   </div>;
 };
 
 /**
  * Export
  */
-export default App;
+export default Blog;
