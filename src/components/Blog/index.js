@@ -14,12 +14,17 @@ import Footer from 'src/components/Footer';
 // Styles et assets
 import './styles.sass';
 
+// Données
+import categories from 'src/data/categories';
+import posts from 'src/data/posts';
+
 /**
  * Code
  */
 const Blog = () => {
   return <div className="app">
-    <Navigation /> {/* React.createElement(Navigation, {}, '') */}
+    {/* React.createElement(Navigation, { categories: [.., ..] }, '') */}
+    <Navigation categories={categories} />
     <Posts />
     <Footer />
   </div>;
