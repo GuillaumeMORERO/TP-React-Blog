@@ -25,7 +25,7 @@ const Blog = () => {
   return <div className="app">
     {/* React.createElement(Navigation, { categories: [.., ..] }, '') */}
     <Navigation categories={categories} />
-    <Posts />
+    <Posts posts={posts} />
     <Footer />
   </div>;
 };
